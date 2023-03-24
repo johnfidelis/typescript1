@@ -88,8 +88,8 @@ export default function SignUpPage() {
          </FormControl>
          <Button type='submit'
        sx={{ color:" white",
-      background: "#d613bc",
-     "&:hover": { backgroundColor: "#d613bc", 
+      background: "green",
+     "&:hover": { backgroundColor: "green", 
      color: "white" },}}
      >Signup</Button>
          </Stack>
