@@ -57,7 +57,7 @@ export default function SignUpPage() {
         marginBottom: {md:"1.39vw"},
         textAlign:"center",
         mt:"30px"}}>
-        Sign up 
+        Register
       </Typography>
       <Stack  component="form" spacing={2} onSubmit={handleSubmit} 
        mx="auto"  
@@ -66,20 +66,21 @@ export default function SignUpPage() {
       px:"20px", mt:"70px", width:"30%", height:"30vh", pb:"10%"}} >
       <FormControl variant="standard" sx={{mt:"50px"}}>
         <Typography>
-          Email
+          User Email
         </Typography>
       <TextField type="email" 
       name="email" 
+      placeholder="Input your email...."
       value={input.email} 
       onChange={handleChange}
         />
       </FormControl>
       <FormControl variant="standard">
       <Typography>
-          password
+          User Password
         </Typography>
       <TextField
-         placeholder="password"
+         placeholder="Input your password...."
         type="password" 
         name="password" 
         value={input.password} 
@@ -91,7 +92,7 @@ export default function SignUpPage() {
       background: "green",
      "&:hover": { backgroundColor: "green", 
      color: "white" },}}
-     >Signup</Button>
+     >Register Now</Button>
          </Stack>
       </Box>
     </>
