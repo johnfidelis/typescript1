@@ -46,7 +46,7 @@ export default function SignUpPage() {
         fontWeight: 700,
         color: "black",
         marginBottom: {md:"1.39vw"},
-        backgroundColor:"#e6e8eb",
+        // backgroundColor:"#e6e8eb",
         // border:"solid red",
          position:"fixed",
           height:"100vh", width:"100%"
